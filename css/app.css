@@ -1,66 +1,36 @@
-/* -----------------------------------------
-   My Styles
-   github.com/harkshark/me
-   MIT License
-   By Lauren Harkness
------------------------------------------ */
-
-/* TOC ----------------------------------
-:: Typography
-:: Masonry
-:: New stuffs
------------------------------------------ */
-
-
-/* Typography --------------------------- */
+/**
+ *  Style
+ */
 
 body * { font-family:'PT Sans', sans-serif; }
 
-
-/* Masonry ------------------------------ */
-
-.masonry-house a { color:inherit; }
-
-.brick { padding:6px 12px; position:relative; }
-
-.brick.h100 { height:100px; }
-
-.brick.blue { background-color: rgb(0, 177, 194); }
-.brick.pink { background-color:#EC5879; }
-.brick.green { background-color:#A1D433; }
-.brick.lite-gray { background-color:#C5C5C5; }
-
-.brick.caps { text-transform:uppercase; }
-.brick.center * { text-align:center; }
-.brick.link { cursor:pointer; }
-.masonry-brick a img:hover { box-shadow:0 0 6px 1px RGBA(95, 95, 95, 0.5); }
-
-.brick.pink.link:hover { box-shadow:0 0 6px 1px RGBA(236, 88, 121, 0.5); }
-.brick.green.link:hover { box-shadow:0 0 6px 1px RGBA(161, 212, 51, 0.5); }
-.brick.blue.link:hover { box-shadow:0 0 6px 1px RGBA(0, 177, 194, 0.5); }
-.brick.lite-gray.link:hover { box-shadow:0 0 6px 1px RGBA(197, 197, 197, 0.5); }
-
-.brick .action { bottom:6px; position:absolute; right:12px; }
-
-
-/* New Stuffs --------------------------- */
-
-.queen-blue {
-    background-color: rgba(65, 103, 136, 1);
+h1 {
+    font-weight: 500;
+    line-height: 1.2;
 }
 
-.shadow-blue {
-    background-color: rgba(115, 137, 174, 1);
+a { color: rgba(8, 72, 135, 1) !important; }
+
+a:hover,
+a:focus { color: rgba(8, 72, 135, 1) !important; }
+
+ul, ol { margin-left: 1.25rem; }
+
+.breadcrumbs li:not(:last-child)::after {
+    color: rgba(157, 141, 241, 1);
 }
 
-.pastel-blue {
-    background-color: rgba(181, 186, 208, 1);
+.fancy {
+    font-family: Courgette, serif;
+    font-weight: normal;
 }
 
-.pearl-aqua {
-    background-color: rgba(129, 210, 199, 1);
-}
+.callout { border: none; }
 
-.platinum {
-    background-color: rgba(224, 224, 226, 1);
-}
+.none { background-color: transparent; }
+.rifle-green { background-color: rgba(65, 70, 61, 1); }
+.bright-lavender { background-color: rgba(157, 141, 241, 1); }
+.pale-cornflower-blue { background-color: rgba(184, 205, 248, 1); }
+.pale-robin-egg-blue { background-color: rgba(149, 242, 217, 1); }
+.medium-spring-green { background-color: rgba(28, 254, 186, 1); }
+
